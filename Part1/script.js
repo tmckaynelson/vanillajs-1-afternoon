@@ -12,8 +12,6 @@ function play(id) {
     square.innerText = player.innerText
     squares[id] = player.innerText
 
-    console.log(squares)
-
     checkWin()
     toggle()
 }
